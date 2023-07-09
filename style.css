@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    background-color: rgb(37, 37, 37);
+    list-style: none;
+    overflow: auto;
+  }
+  
+li {
+    display: table;
+    float: left;
+}
+  
+li a {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 25px;
+    text-decoration: none;
+    color: rgb(214, 214, 214);
+    font-size: 25px;
+}
+
+.active {
+    background-color: red;
+}
