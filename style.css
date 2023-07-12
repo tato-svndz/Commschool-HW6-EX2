@@ -13,6 +13,7 @@ ul {
 li {
     display: table;
     float: left;
+    transition: background-color 0.5s;
 }
   
 li a {
@@ -24,6 +25,7 @@ li a {
     font-size: 25px;
 }
 
-.active {
+li:hover {
     background-color: red;
+    transition: background-color 0.5s;
 }
